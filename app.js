@@ -37,3 +37,14 @@ console.log(calculate(10, 5, "+"))
 console.log(calculate(10, 5, "-"))
 console.log(calculate(10, 5, "*"))
 console.log(calculate(10, 5, "/"))
+
+
+const favoritecolour = "purple"
+
+function sayhello() {
+    const myname = "Raf"
+    console.log( " Hello! "+  myname  +" Your favorite colour is "+ favoritecolour + ".")
+    
+}
+
+sayhello()
