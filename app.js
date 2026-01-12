@@ -48,3 +48,13 @@ function sayhello() {
 }
 
 sayhello()
+
+
+const myperson = {
+    name: "Raf",
+    age: 23,
+    height: 5.7,
+}
+console.log(myperson)
+console.table(myperson)
+console.log(myperson.age)
